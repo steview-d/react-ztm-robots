@@ -1,5 +1,27 @@
 ## React App - Robots Rolodex
 
+#### Deployment to GH Pages
+
+`yarn add gh-pages` - to add gh-pages package
+
+Update `package.json` with the following
+
+```
+"homepage": "https://steview-d.github.io/<repo name>",
+"scripts" : {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+}
+```
+
+`yarn deploy` - to run 'predeploy' & 'deploy' scripts
+
+`Add`, `commit`, and `push` changes to github.
+
+From `GitHub` go to repo >> settings >> GitHub Pages and within `source` dropdown, select `gh-pages branch`
+
+That's it.
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
