@@ -22,4 +22,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-eslint_install_notes.md
+.notes.md
+
+# eslint files
+.eslint_install_notes.md
+.eslintrc.json

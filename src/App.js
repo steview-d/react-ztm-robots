@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import { CardList } from "./components/card-list/card-list.component";
-import { SearchBox } from "./components/search-box/search-box.component";
+import { CardList } from './components/card-list/card-list.component';
+import { SearchBox } from './components/search-box/search-box.component';
 
-import "./App.css";
+import './App.css';
 
 class App extends Component {
     constructor() {
@@ -11,7 +11,7 @@ class App extends Component {
 
         this.state = {
             monsters: [],
-            searchField: "",
+            searchField: '',
         };
 
         // arrow func with handleChange removes the need to bind 'this'
@@ -19,7 +19,7 @@ class App extends Component {
     }
 
     componentDidMount() {
-        fetch("https://jsonplaceholder.typicode.com/users")
+        fetch('https://jsonplaceholder.typicode.com/users')
             .then(response => response.json())
             .then(users => this.setState({ monsters: users }));
     }
@@ -39,9 +39,10 @@ class App extends Component {
 
         /* jshint ignore:start */
         return (
-            <div className="App">
+            <div className='App'>
+                <h1>Robots Rolodex</h1>
                 <SearchBox
-                    placeholder="search robots"
+                    placeholder='search robots'
                     handleChange={this.handleChange}
                 />
                 {/*
