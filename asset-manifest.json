@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-ztm-robots/static/css/main.1f712555.chunk.css",
+    "main.js": "/react-ztm-robots/static/js/main.fd73a26f.chunk.js",
+    "main.js.map": "/react-ztm-robots/static/js/main.fd73a26f.chunk.js.map",
+    "runtime-main.js": "/react-ztm-robots/static/js/runtime-main.425c7c5e.js",
+    "runtime-main.js.map": "/react-ztm-robots/static/js/runtime-main.425c7c5e.js.map",
+    "static/js/2.9523cfc5.chunk.js": "/react-ztm-robots/static/js/2.9523cfc5.chunk.js",
+    "static/js/2.9523cfc5.chunk.js.map": "/react-ztm-robots/static/js/2.9523cfc5.chunk.js.map",
+    "index.html": "/react-ztm-robots/index.html",
+    "precache-manifest.22ff8a1f0a8c5b3274827bd21476db32.js": "/react-ztm-robots/precache-manifest.22ff8a1f0a8c5b3274827bd21476db32.js",
+    "service-worker.js": "/react-ztm-robots/service-worker.js",
+    "static/css/main.1f712555.chunk.css.map": "/react-ztm-robots/static/css/main.1f712555.chunk.css.map",
+    "static/js/2.9523cfc5.chunk.js.LICENSE.txt": "/react-ztm-robots/static/js/2.9523cfc5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.425c7c5e.js",
+    "static/js/2.9523cfc5.chunk.js",
+    "static/css/main.1f712555.chunk.css",
+    "static/js/main.fd73a26f.chunk.js"
+  ]
+}
